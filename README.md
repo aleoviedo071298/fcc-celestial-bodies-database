@@ -1,40 +1,35 @@
-# 🌌 Celestial Bodies Database  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-12-blue?logo=postgresql)  
-![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-Project-0A0A23?logo=freeCodeCamp)  
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+# Celestial Bodies Database
 
-This repository contains my solution to the **Celestial Bodies Database** project for the freeCodeCamp **Relational Database Certification**.
+My solution to the Celestial Bodies Database project for freeCodeCamp's Relational
+Database certification: a PostgreSQL database modeling galaxies, stars, planets,
+moons, and planet types.
 
-The project demonstrates:
+## What This Demonstrates
 
-- Designing and creating a PostgreSQL relational database  
-- Building structured tables for: **galaxies**, **stars**, **planets**, **moons**, and **planet types**  
-- Defining **primary keys**, **foreign keys**, constraints, and one-to-many relationships  
-- Using proper column types (`VARCHAR`, `NUMERIC`, `INT`, `BOOLEAN`, etc.)  
-- Enforcing data integrity with `NOT NULL`, `UNIQUE`, and reference constraints  
-- Populating the database with realistic sample data  
-- Exporting the full project using `pg_dump` for reproducibility  
+- Designing and creating a PostgreSQL relational database.
+- Structured tables for galaxies, stars, planets, moons, and planet types.
+- Primary keys, foreign keys, constraints, and one-to-many relationships.
+- Proper column types (`VARCHAR`, `NUMERIC`, `INT`, `BOOLEAN`, etc).
+- Data integrity via `NOT NULL`, `UNIQUE`, and reference constraints.
+- Realistic sample data.
+- Reproducible export via `pg_dump`.
 
----
+## Files Included
 
-## 📂 Files Included
+- `universe.sql` — complete PostgreSQL database dump: table definitions, constraints, relationships, sample data, sequences and defaults.
 
-- **`universe.sql`** — Complete PostgreSQL database dump containing:
-  - All table definitions  
-  - Constraints and relationships  
-  - Inserted sample data  
-  - Sequences and defaults  
+## Tech Stack
 
----
+- PostgreSQL 12
+- psql CLI
+- freeCodeCamp CodeRoad environment
 
-## 🛠️ Technologies Used
-- **PostgreSQL 12**
-- **psql CLI**
-- **freeCodeCamp CodeRoad environment**
-
----
-
-## 🚀 How to Restore the Database
+## How to Restore
 
 ```bash
 psql -U postgres < universe.sql
+```
+
+## Author
+
+**Alejandro Oviedo**
